@@ -22,7 +22,7 @@ body {
 
 .principal {
     background-image: url("./Imagens\ png/Background.png");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
@@ -80,11 +80,12 @@ body {
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0,1em;
+    margin-bottom: 0.1em; /* Corrigido aqui */
 }
 
 .descricao__texto {
     color: var(--cinza-secundario);
+    margin-bottom: 0,1em; /* Corrigido aqui */
 }
 
 .secundario__botao {
