@@ -154,15 +154,15 @@ body {
 @media screen and (max-width: 768px) {
     .container {
         display: block;
-        background-image: none;
     }
-    
-    .container__imagem {
+
+    .container__imagem,
+    .secundario__imagem {
         width: 100%;
     }
 
     .container__caixa {
-        margin: 2em 2em;
+        margin: 2em;
     }
 
     .secundario {
@@ -170,15 +170,10 @@ body {
         text-align: center;
     }
 
-    .secundario__imagem {
-        width: 100%;
-    }
-
-    .dispositivos__lista {
-        display: block;
-    }
-
+    .dispositivos__lista,
     .rodape__lista {
         display: block;
     }
 }
+
+
