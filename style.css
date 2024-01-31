@@ -22,7 +22,7 @@ body {
 
 .principal {
     background-image: url("./Imagens\ png/Background.png");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
@@ -80,11 +80,12 @@ body {
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0,1em;
+    margin-bottom: 0.1em;
 }
 
 .descricao__texto {
     color: var(--cinza-secundario);
+    margin-bottom: 0.1em;
 }
 
 .secundario__botao {
@@ -154,10 +155,11 @@ body {
     .container {
         display: block;
         background-image: none;
+        width: 100%;
     }
     
     .container__imagem {
-        width: 100vw;
+        width: 100%;
     }
 
     .container__caixa {
@@ -170,7 +172,7 @@ body {
     }
 
     .secundario__imagem {
-        width: 100vw;
+        width: 100%;
     }
 
     .dispositivos__lista {
