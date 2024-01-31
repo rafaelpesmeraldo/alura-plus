@@ -80,12 +80,11 @@ body {
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0.1em;
+    margin-bottom: 0,1em;
 }
 
 .descricao__texto {
     color: var(--cinza-secundario);
-    margin-bottom: 0.1em;
 }
 
 .secundario__botao {
@@ -155,11 +154,10 @@ body {
     .container {
         display: block;
         background-image: none;
-        width: 100%;
     }
     
     .container__imagem {
-        width: 100%;
+        width: 50vw;
     }
 
     .container__caixa {
@@ -172,7 +170,7 @@ body {
     }
 
     .secundario__imagem {
-        width: 100%;
+        width: 50vw;
     }
 
     .dispositivos__lista {
