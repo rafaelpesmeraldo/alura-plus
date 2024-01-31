@@ -154,6 +154,7 @@ body {
     .container {
         display: block;
         background-image: none;
+        height: 100vh;
     }
     
     .container__imagem {
